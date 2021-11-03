@@ -47,13 +47,18 @@ nav ul {
     background-color: rgb(227, 216, 236);
 }
 
+.info {
+    font-size: 25px;
+}
+
 .gameInfo {
     padding: 0 34px;
     font-family: "Baloo Bhaina 2", cursive;
 }
 
 .imgbox img {
-    display: none;
+    width: 0;
+    transition: width 1s ease-in-out;
 }
 
 /* Utility Classes */
@@ -71,4 +76,16 @@ nav ul {
 
 .bb-0 {
     border-bottom: 0;
+}
+
+#reset {
+    margin: 0 23px;
+    padding: 1px 10px;
+    border-radius: 6px;
+    font-family: 'Baloo Bhaina 2';
+    color: white;
+    background:rgb(83, 143, 255);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
 }
