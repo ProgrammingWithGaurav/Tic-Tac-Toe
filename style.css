@@ -94,6 +94,15 @@ nav ul {
     font-weight: bolder;
 }
 
+.line {
+    background-color: black;
+    width: 0;
+    height: 3px;
+    position: absolute;
+    background-color: #911d91;
+    transition: width 1s ease-in-out;
+}
+
 
 /* Setting Media Queries for Responsivness */
 @media screen and (max-width: 950px) {
